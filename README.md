@@ -1,0 +1,2 @@
+# qrcode
+基于phpqrcode的yii2二维码插件扩展，使用了yii2的特性。实现了phpqrcode的所有api
