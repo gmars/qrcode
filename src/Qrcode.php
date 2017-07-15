@@ -10,15 +10,13 @@
 namespace gmars\qrcode;
 
 
-use gmars\qrcode\driver\PngCode;
-use yii\base\Component;
+include './phpqrcode/qrlib.php';
 
-class QrCode extends Component
+class QrCode
 {
     public function test()
     {
-        $pngObj = new PngCode();
-        return $pngObj->getPng();
+        return \QRcode::png('test');
     }
 
 }
