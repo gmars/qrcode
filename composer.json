@@ -1,0 +1,25 @@
+{
+    "name": "gmars/qrcode",
+    "description": "基于PHPqrcode官方插件的yii2扩展，包含了几官方提供的所有api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "weiyongqiang",
+            "email": "weiyongqiang@weiyongqiang.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "keywords": ["phpqrcode", "qrcode", "gmars", "yii2 library"],
+    "homepage": "http://www.weiyongqiang.com/",
+    "support": {
+        "issues": "https://github.com/gmars/qrcode/issues",
+        "source": "https://github.com/gmars/qrcode"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "gmars\\qrcode\\" : "src/"
+        }
+    }
+}
