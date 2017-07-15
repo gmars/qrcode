@@ -13,7 +13,7 @@ namespace gmars\qrcode;
 use gmars\qrcode\driver\PngCode;
 use yii\base\Component;
 
-class Qrcode extends Component
+class QrCode extends Component
 {
     public function test()
     {
